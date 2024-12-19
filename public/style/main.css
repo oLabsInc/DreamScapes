@@ -5,8 +5,38 @@
 }
 
 body {
-    background-color: green;
-    color: yellow;
+    background-color: rgb(0, 88, 0);
+    color: rgb(201, 201, 16);
     text-shadow: 0 0 8px #000;
 }
+h1 {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    text-decoration: underline;
+}
+h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: #fff;
+}
 
+ul {
+    width: 95%;
+    margin-left: 2.5%;
+    border-radius: 1rem;
+    background-color: rgb(48, 190, 48);
+    padding: 1rem;
+    padding-left: 2rem;
+    margin-bottom: 2.5rem;
+}
+li {
+    padding: 0.15rem;
+    color: rgb(0, 88, 0);
+    text-shadow: 0 0 1px rgb(201, 201, 16);
+    list-style: circle;
+}
+li::marker {
+    color: rgb(201, 201, 16);
+}
